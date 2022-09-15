@@ -180,23 +180,32 @@ body {
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 20%;
-    height: 8rem;
+    height: 6rem;
     margin: 1rem;
     background: var(--bg-gray);
     border-radius: 10px;
     box-shadow: -3px 2px 20px 5px rgba(0, 0, 0, 0.75);
+    padding: 1rem;
 }
 
 .recommended__card-text {
     text-align: start;
 }
 
+.recommended__card-img img {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 1em;
+    object-fit: cover
+}
+
 .recommended__card-text h4,
 .products__card-info h4 {
     color: var(--white-main);
     font-weight: var(--medium);
+    margin-bottom: 5px;
 }
 
 .recommended__card-text p,
@@ -209,10 +218,6 @@ body {
 .recommended__card-text b,
 .products__card-info b {
     color: var(--yellow-main);
-}
-
-.recommended__card-img img {
-    width: 3.5rem;
 }
 
 .recommended__card-button input,
